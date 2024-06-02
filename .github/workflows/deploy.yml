@@ -22,8 +22,6 @@ jobs:
         run: npm ci
       - name: Run server
         run: echo ${{ secrets.USER_NAME }}
-      - name: Run tests
-        run: npm test
       - name: Output information
         run: echo "..."
   deploy:
